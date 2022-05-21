@@ -1,0 +1,27 @@
+.container1{
+    width: 300px;
+    height: 400px;
+    background-color: darkgoldenrod;
+}
+.btn{
+    display: none;
+}
+.inpt_1{
+    font-size: 40px;
+    color: white;
+    background-color: brown;
+
+
+}
+i{
+  
+
+margin-left:    90px;
+
+}
+i:hover{
+  color: red;
+}
+ li{
+width: 100px;
+}
