@@ -2,6 +2,7 @@
     width: 300px;
     height: 400px;
     background-color: darkgoldenrod;
+  
 }
 .btn{
     display: none;
@@ -16,12 +17,53 @@
 i{
   
 
-margin-left:    90px;
+margin-left:100px;
 
 }
 i:hover{
   color: red;
 }
  li{
-width: 100px;
+min-width: 100px;
+}
+@media(max-width:700px){
+    .display_section{
+     min-width: 200px;
+      
+    }
+    li{
+        min-width: 50px;
+        }
+    .button1{
+       margin-left: 100px;
+      
+        min-height: 40px;
+        width: 10px;
+        color: #4f4f4f;
+        font-size: 10px;
+      margin-top: -20px;
+    }
+}
+@media(max-width:500px){
+    .display_section{
+     min-width: 100px;
+     margin-left: 50px;
+      
+    }
+    li{
+        min-width: 20px;
+        }
+    .button1{
+       margin-left: 60px;
+      
+        min-height: 40px;
+        width: 10px;
+        color: #4f4f4f;
+        font-size: 10px;
+      margin-top: -20px;
+    }
+    i{
+        margin-left: 10px;
+
+    }
 }
